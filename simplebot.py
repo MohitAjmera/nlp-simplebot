@@ -3,11 +3,7 @@ import tkinter.scrolledtext as tks #creates a scrollable text window
 import os
 import openai
 
-openai.api_type = "azure"
-openai.api_base = "https://genaitraining-aoai2.openai.azure.com/"
-openai.api_version = "2023-09-15-preview"
-api_key = "4d78888ae7d34d38bf5a0ec97a69a6f6"
-openai.api_key = api_key
+# you have to use open ai api key here
 
 from datetime import datetime
 from tkinter import *
